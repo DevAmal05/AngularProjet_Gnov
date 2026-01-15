@@ -75,7 +75,7 @@ export class AddUserComponent {
       lastname:  this.lastname,
       phone: this.phone
     }).then (added =>{
-      this.router.navigate(['/people-list'])
+      this.router.navigate(['/users'])
     }).catch(error =>{
       console.error(error)
     })
